@@ -1,7 +1,6 @@
 package com.trivia.modelo;
 
 public enum Categoria {
-
     geografia("Geografia", "Azul"),
     historia("Historia", "Amarillo"),
     deportesPasatiempos("Deportes y pasatiempos", "Naranja"),
@@ -16,7 +15,6 @@ public enum Categoria {
         this.nombre = nombre;
         this.color = color;
     }
-
     public String getNombre() {
         return nombre;
     }
@@ -25,10 +23,8 @@ public enum Categoria {
         return color;
     }
 
-
     @Override
     public String toString(){
         return nombre + "("+ color + ")";
     }
-
 }
