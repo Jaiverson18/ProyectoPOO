@@ -1,4 +1,4 @@
-package PACKAGE_NAME;
+package com.trivia.modelo;
 
-public class Categoria {
+public enum Categoria {
 }
